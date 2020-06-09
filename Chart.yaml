@@ -1,0 +1,13 @@
+apiVersion: v2
+name: twingate
+version: 0.0.1
+description: Twingate is remote access for the modern world.
+keywords:
+  - remote access
+  - vpn
+home: https://twingate.com/
+maintainers:
+  - name: Spittal
+    email: jamie@jamiespittal.com
+engine: gotpl
+icon: https://landen.imgix.net/eproqyq9fy5k/assets/qkmql5mt.png?w=288
