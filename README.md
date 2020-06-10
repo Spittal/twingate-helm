@@ -107,7 +107,7 @@ $ helm install my-release -f values.yaml springboard/twingate
 
 ### Twingate settings
 
-You can configure any twingate setting using the `envFrom` parameter like so. (Learn about envFrom)[https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/#define-an-environment-variable-for-a-container]
+You can configure any twingate setting using the `envFrom` parameter like so. [Learn about envFrom](https://kubernetes.io/docs/tasks/inject-data-application/define-environment-variable-container/#define-an-environment-variable-for-a-container).
 
 ```yaml
 envFrom:
@@ -123,7 +123,7 @@ extraArgs:
     value: 8080
 ```
 
-A list of the available options can be found on the [Twingate website](https://twingate.org/docs/0.13.0/guide/).
+A list of the available options can be found in the [Twingate documentation](https://docs.twingate.com/docs/deployment-semi-automation).
 
 ### Set up an Ingress controller
 
